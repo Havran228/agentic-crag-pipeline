@@ -1,0 +1,20 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Runtime artifacts (audit logs stay local, never committed)
+logs/*
+!logs/.gitkeep
+data/embedding_cache/*
+!data/embedding_cache/.gitkeep
+
+# IDE
+.idea/
+.vscode/
